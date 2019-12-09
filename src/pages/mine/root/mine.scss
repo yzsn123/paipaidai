@@ -1,0 +1,221 @@
+.mine{
+    // box-sizing: border-box;
+    // padding:  0 45px;
+    .head{
+        width: 100%;
+        box-sizing: border-box;
+        padding:  0 45px;
+        height: 708px;
+        background: #313864;
+        position: relative;
+        .userImg{
+            display: flex;
+            width: 100%;
+            height: 150px;
+            align-items: center;
+            span{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background: white;
+                margin-right: 30px;
+           }
+           em{
+               color: white;
+               font-size: 38px;
+           }
+        }
+        .real{
+            margin: 15px 0 35px 0;
+            width: 100%;
+            height: 134px;
+            border-radius: 25px;
+            background: white;
+            display: flex;
+            align-items: center;
+            font-size: 36px;
+            font-weight: bold;
+            img{
+                width: 56px;
+                height: 56px;
+                margin:0 25px 0 42px;
+            }
+            span{
+                color: #333;
+            }
+            em{
+                color: red;
+            }
+        }
+        .money{
+            width: 100%;
+            padding: 94px 42px;
+            box-sizing: border-box;
+            border-radius: 25px;
+            box-shadow: 2px 4px 25px #aaa;
+            background: white;
+            .limit{
+                h3{
+                    font-size: 32px;
+                    color:#756c7f;
+                }
+                div{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    line-height: 205px;
+                    height: 205px;
+                    border-bottom:2px dotted #ccc;
+                    h2{
+                        font-size: 64px;
+                        font-weight: bold;
+                        color: #463a50;
+                    }
+                    em{
+                        width: 190px;
+                        height: 76px;
+                        background: #6e85e2;
+                        color: white;
+                        font-size: 34px;
+                        line-height: 76px;
+                        text-align: center;
+                        border-radius: 32px;
+                    }
+                }
+            }
+            ul{
+                width: 100%;
+                display: flex;
+                margin-top: 52px;
+                li{
+                    flex: 1;
+                    height: 180px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    color:#3a4058;
+                        font-weight: bold;
+                    span{
+                        font-size: 70px;
+                    }
+                    em{
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+    }
+    .mineContent{
+        width: 100%;
+        box-sizing: border-box;
+        padding:  340px 45px  210px 45px;
+        background: white;
+        .mineAdd{
+            display: flex;
+            align-items: center;
+            background: #f7f7f7;
+            border-radius: 25px;
+            height: 210px;
+            img{
+                width: 80px;
+                height: 106px;
+                margin:0 30px 0 56px;
+            }
+            .message{
+                flex: 1;
+                h3{
+                    font-size: 48px;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                    em{
+                        padding: 12px;
+                        background: #fff1ee;
+                        color: #f75a09;
+                        font-size: 25px;
+                        border-radius: 10px;
+                    }
+                }
+                p{
+                    font-size: 30px;
+                    color: #333;
+                }
+            }
+            span{
+                width: 180px;
+                height: 82px;
+                text-align: center;
+                margin-right: 40px;
+                line-height: 82px;
+                background: #6e85e2;
+                border-radius: 32px;
+                color: white;
+            }
+        }
+        .welfare{
+            width: 100%;
+            margin-top: 50px;
+            h3{
+                font-size: 42px;
+                color: #333;
+                font-weight: bold;
+            }
+            ul{
+                margin-top: 90px;
+                width: 100%;
+                display: flex;
+                li{
+                    flex: 1;
+                    height: 168px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: column;
+                    img{
+                        width:82px;
+                        height: 82px;
+                    }
+                    span{
+                        font-size: 34px;
+                        color:#333;
+                    }
+                }
+            }
+        }
+
+        .mineBanner{
+            width: 100%;
+            height: 214px;
+            
+            overflow: hidden;
+            padding: 90px 0;
+            border-bottom: 1px solid #eee;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .manage{
+            width: 100%;
+            li{
+                width: 100%;
+                height: 166px;
+                border-bottom: 1px solid #eee;
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+                justify-content: space-between;
+                span{
+                    color:#554c5f;
+                    font-size: 46px;
+                }
+                em{
+                    font-size: 25px;
+                    transform: scaleY(1.8);
+                    color: #9a9a9a;
+                    margin-right:18px;
+                }
+            }
+        }
+    }
+}

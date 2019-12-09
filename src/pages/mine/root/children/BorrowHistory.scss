@@ -1,0 +1,52 @@
+.borrowHistory{
+    &.page{
+        bottom: 0;
+        background: white;
+        z-index: 99;
+    }
+    .content{
+        top: 44px;
+        background: #f5f6f8;
+    }
+    h2{
+        width: 100%;
+        background: #5179f3;
+        color: white;
+        border-radius: 50px;
+        font-size: 52px;
+        margin: 25px 0;
+        padding:25px 0;
+        text-align: center;
+    }
+    .history{
+        width: 100%;
+        padding:0 25px;
+        box-sizing: border-box;
+        
+        li{
+            margin: 52px 0;
+            width: 100%;
+            border-radius: 25px;
+            padding:25px;
+            box-sizing: border-box;
+            background: white;
+            h3{
+                font-size: 52px;
+                color: #333;
+                font-weight: bold;
+                color: #5179f3;
+                line-height: 88px;
+            }
+            p{
+                font-size: 40px;
+                color: #333;
+                line-height: 66px;
+            }
+        }
+    }
+    .noBorrow{
+        img{
+            width: 100%;
+        }
+    }
+}

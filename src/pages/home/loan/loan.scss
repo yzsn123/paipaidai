@@ -1,0 +1,129 @@
+.loan{
+    &.page{
+        bottom: 0;
+        background: white;
+        z-index: 99;
+    }
+    .header{
+        box-shadow: 1px 1px 5px #eee;
+        line-height: 44px;
+        text-align: center;
+        z-index: 99;
+        span{
+            position: absolute;
+            left: 0;
+            padding: 0 15px;
+        }
+        h3{
+            font-size: 16px;
+        }
+    }
+    .content{
+        top: 0;
+        box-sizing: border-box;
+        padding-top: 44px;
+    }
+    .limit{
+        box-sizing: border-box;
+        padding: 52px 40px 152px 40px;
+        width: 100%;
+        background: #5179f3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background:linear-gradient(#577ef3,#577ef3,#90aaf7,white);
+        .limitHead{
+            height: 25px;
+            background: #2648b1;
+            width: 100%;
+            border-radius: 10px;
+            border:1px dotted #333;
+        }
+        .limitBox{
+            width: 90%;
+            background: white;
+            box-sizing: border-box;
+            padding: 52px;
+            text-align: center;
+            border-bottom-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            h3{
+                font-size: 52px;
+                color:#333;
+                line-height: 80px;
+                margin-bottom:52px;
+            }
+            h2{
+                font-size: 100px;
+                color:#2648b1;
+                font-weight: bold;
+            }
+            img{
+                width: 100%;
+                margin: 52px 0;
+            }
+            button{
+                width: 100%;
+                padding: 35px 0;
+                background: #5179f3;
+                color:white;
+                font-size: 38px;
+                border-radius: 20px;
+                border:none;
+                margin:52px 0;
+            }
+        }
+    }
+    .loanPop{
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.3);
+        .popBox{
+            width: 85%;
+            border-radius: 25px;
+            background: white;
+            position: absolute;
+            left: 0;
+            top: 20%;
+            right: 0;
+            margin: auto;
+            box-sizing: border-box;
+            padding: 52px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3{
+                font-size: 52px;
+                margin-bottom: 100px;
+            }
+            p{
+                display: flex;
+                em{
+                    font-size: 80px;
+                    font-weight: bold;
+                    margin-right:52px;
+                    color: red;
+                }
+                input{
+                    flex: 1;
+                    border:none;
+                    border-bottom:1px solid #aaa;
+                    color: #333;
+                    font-size:52px;
+                }
+            }
+            button{
+                padding: 25px 152px;
+                background: #5179f3;
+                color:white;
+                border:none;
+                border-radius: 25px;
+                margin: 100px 0 25px 0;
+                font-size: 38px;
+            }
+        }
+    }
+}

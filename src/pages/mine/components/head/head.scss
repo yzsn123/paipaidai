@@ -1,0 +1,19 @@
+.header.Mine {
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+    span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0 20px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #6a6a6a;
+    }
+    h3{
+        font-size: 16px;
+    }
+}

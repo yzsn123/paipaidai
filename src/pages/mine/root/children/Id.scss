@@ -1,0 +1,25 @@
+.Id{
+    &.page{
+        bottom: 0;
+        z-index: 99;
+        background: white;
+    }
+    .content{
+        top: 44px;
+    }
+    .header{
+        line-height: 44px;
+        border-bottom: 1px solid #eee;
+        box-shadow: -1px 1px 5px #eee;
+        text-align: center;
+        h3{
+            font-size: 16px;
+        }
+        span{
+            position: absolute;
+            left:0;
+            top: 0;
+            padding: 0 16px;
+        }
+    }
+}
